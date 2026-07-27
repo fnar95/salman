@@ -1,0 +1,6 @@
+{
+  "name": "الأكثر إعجاباً - فاضل المبارك",
+  "description": "صفحة نيون تفاعلية مستقبليّة تُبرز أهم الروابط والتطبيقات الأكثر إعجاباً مع تأثيرات النيون الجذابة والمؤثرات البصرية.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
