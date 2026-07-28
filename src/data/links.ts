@@ -60,5 +60,29 @@ export const INITIAL_LINKS: LinkItem[] = [
     likesCount: 1650,
     featuredTag: 'جديد ومميز',
     description: 'تطبيق سحابي متطور لاستخراج وعرض نتائج الطلاب بسرعة وسهولة عبر برمجيات جوجل السحابية.'
+  },
+  {
+    id: 'link-6',
+    title: 'نموذج تسجيل حضور لأصدار شهادة',
+    subtitle: 'سكربت الشهادات والحضور السحابي',
+    url: 'https://script.google.com/macros/s/AKfycbxKCa3CdohxVa_t9a4GHvLKqYKqi0ZooHivvMbDIiGqJGUhPQlnFPfk1TNJHLuBx_wA/exec',
+    iconName: 'code',
+    colorTheme: 'purple',
+    badgeText: 'تسجيل الحضور والشهادات 📜',
+    likesCount: 1820,
+    featuredTag: 'مُعتمد ومميز',
+    description: 'نموذج ذكي وسريع لتسجيل الحضور وإصدار الشهادات فورياً عبر تطبيقات جوجل السحابية.'
+  },
+  {
+    id: 'link-7',
+    title: 'منصة اصدار شهادات دورات استاذ فاضل المبارك',
+    subtitle: 'zaha.kesug.com',
+    url: 'https://zaha.kesug.com/',
+    iconName: 'star',
+    colorTheme: 'pink',
+    badgeText: 'إصدار الشهادات 🎖️',
+    likesCount: 1950,
+    featuredTag: 'منصة رسمية',
+    description: 'المنصة المعتمدة لإصدار واستعراض شهادات دورات الأستاذ فاضل المبارك بسرعة وسهولة.'
   }
 ];
