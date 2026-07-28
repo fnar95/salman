@@ -15,10 +15,10 @@ export default function App() {
     if (saved) {
       try {
         const parsed: LinkItem[] = JSON.parse(saved);
-        // Sync link titles, subtitles, and descriptions with INITIAL_LINKS in case of updates while keeping likes count
-        return parsed.map((item) => {
-          const initial = INITIAL_LINKS.find((init) => init.id === item.id);
-          return initial ? { ...item, title: initial.title, subtitle: initial.subtitle, description: initial.description } : item;
+        // Map INITIAL_LINKS so new links are included, and existing saved link properties (like likesCount) are preserved
+        return INITIAL_LINKS.map((init) => {
+          const savedItem = parsed.find((p) => p.id === init.id);
+          return savedItem ? { ...init, likesCount: savedItem.likesCount } : init;
         });
       } catch {
         return INITIAL_LINKS;

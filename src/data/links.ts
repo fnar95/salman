@@ -48,5 +48,17 @@ export const INITIAL_LINKS: LinkItem[] = [
     likesCount: 890,
     featuredTag: 'سريع وآمن',
     description: 'الرابط الخفيف والمباشر للوصول الفوري الخالي من الانتظار.'
+  },
+  {
+    id: 'link-5',
+    title: 'منصة استخراج نتائج الطلاب',
+    subtitle: 'تطبيق النتائج السحابي',
+    url: 'https://script.google.com/macros/s/AKfycbylxpcVlQPjuj0jshqJvhYFxs5QhPQ9KPxEcW424LnSlKn4mGQ93gThHi3NUg_AKF6lbg/exec',
+    iconName: 'code',
+    colorTheme: 'cyan',
+    badgeText: 'نتائج الطلاب 🎓',
+    likesCount: 1650,
+    featuredTag: 'جديد ومميز',
+    description: 'تطبيق سحابي متطور لاستخراج وعرض نتائج الطلاب بسرعة وسهولة عبر برمجيات جوجل السحابية.'
   }
 ];

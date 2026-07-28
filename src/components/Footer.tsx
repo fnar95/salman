@@ -52,7 +52,7 @@ export const Footer: React.FC = () => {
       id: 'youtube',
       name: 'قناة اليوتيوب',
       handle: 'فاضل المبارك - الفنار 95',
-      url: 'https://www.youtube.com/@fnar9595',
+      url: 'https://www.youtube.com/channel/UC1pKwkasQIOysB0ibC6iZCg',
       icon: Youtube,
       isCustomIcon: false,
       color: 'from-rose-950/80 to-pink-950/80',
