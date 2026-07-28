@@ -84,5 +84,41 @@ export const INITIAL_LINKS: LinkItem[] = [
     likesCount: 1950,
     featuredTag: 'منصة رسمية',
     description: 'المنصة المعتمدة لإصدار واستعراض شهادات دورات الأستاذ فاضل المبارك بسرعة وسهولة.'
+  },
+  {
+    id: 'link-8',
+    title: 'منصة تحديد انماط التعلم',
+    subtitle: 'salmanfad.atwebpages.com',
+    url: 'http://salmanfad.atwebpages.com/',
+    iconName: 'globe',
+    colorTheme: 'cyan',
+    badgeText: 'أنماط التعلم 🧠',
+    likesCount: 2100,
+    featuredTag: 'تفاعلي ومفيد',
+    description: 'منصة متخصصة لتحديد واكتشاف أنماط التعلم المختلفة للطلاب والمعلمين بطريقة تفاعلية.'
+  },
+  {
+    id: 'link-9',
+    title: 'اصنع باركود لروابطك',
+    subtitle: 'fnar95.github.io/qr',
+    url: 'https://fnar95.github.io/qr/',
+    iconName: 'zap',
+    colorTheme: 'emerald',
+    badgeText: 'مولد الباركود 📱',
+    likesCount: 2250,
+    featuredTag: 'أداة ذكية',
+    description: 'أداة سريعة وسهلة لتوليد وإنشاء رموز الباركود (QR Code) لروابطك وموقعك المباشر.'
+  },
+  {
+    id: 'link-10',
+    title: 'نظام التحقق من الشهادات',
+    subtitle: 'fnar95.github.io/shaddaat',
+    url: 'https://fnar95.github.io/shaddaat/',
+    iconName: 'star',
+    colorTheme: 'purple',
+    badgeText: 'التحقق من الشهادات 🛡️',
+    likesCount: 2400,
+    featuredTag: 'نظام موثوق',
+    description: 'منصة إلكترونية موثوقة وسريعة للتحقق والتأكد من صحة الشهادات الصادرة بكل سهولة.'
   }
 ];
