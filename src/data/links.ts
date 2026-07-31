@@ -120,5 +120,29 @@ export const INITIAL_LINKS: LinkItem[] = [
     likesCount: 2400,
     featuredTag: 'نظام موثوق',
     description: 'منصة إلكترونية موثوقة وسريعة للتحقق والتأكد من صحة الشهادات الصادرة بكل سهولة.'
+  },
+  {
+    id: 'link-11',
+    title: 'منصة حجز مواعيد زيارة مدرسة',
+    subtitle: 'amr-bin-al-aas-booking.vercel.app',
+    url: 'https://amr-bin-al-aas-booking.vercel.app/',
+    iconName: 'rocket',
+    colorTheme: 'cyan',
+    badgeText: 'حجز المواعيد 📅',
+    likesCount: 2550,
+    featuredTag: 'حجز موعد',
+    description: 'منصة إلكترونية تتيح حجز وتنظيم مواعيد زيارة المدرسة لأولياء الأمور والزوار بسهولة ويسر.'
+  },
+  {
+    id: 'link-12',
+    title: 'لوحة تحكم لمنصة حجز المواعيد',
+    subtitle: 'amr-bin-al-aas-booking.vercel.app/appointments',
+    url: 'https://amr-bin-al-aas-booking.vercel.app/appointments',
+    iconName: 'shield',
+    colorTheme: 'purple',
+    badgeText: 'لوحة التحكم 📊',
+    likesCount: 2700,
+    featuredTag: 'إدارة المواعيد',
+    description: 'لوحة تحكم مخصصة لمتابعة وإدارة المواعيد المحجوزة واستعراض بيانات الزوار والطلبات.'
   }
 ];
