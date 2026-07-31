@@ -16,8 +16,8 @@ export const INITIAL_LINKS: LinkItem[] = [
   {
     id: 'link-2',
     title: 'الخطط الاسبوعية للمدارس',
-    subtitle: 'fnar95.kesug.com',
-    url: 'https://fnar95.kesug.com/?i=1',
+    subtitle: 'khtat.wuaze.com',
+    url: 'https://khtat.wuaze.com/',
     iconName: 'globe',
     colorTheme: 'pink',
     badgeText: 'المنصة الرئيسية 🌐',
